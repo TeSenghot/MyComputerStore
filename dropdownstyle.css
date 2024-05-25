@@ -189,9 +189,6 @@ margin-left: 70px;
     color:rgb(134, 134, 134);
     transition:transform 2s;
     font-size:20px;
-    box-shadow: 0px 5px 5px 0px rgb(230, 85, 235);
-    background-color:rgb(193, 193, 193);
-    
 }
 a #gear:hover{
     transform:rotate(360deg);
