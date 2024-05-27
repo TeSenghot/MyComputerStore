@@ -4,6 +4,7 @@
     font-family: Bauhaus 93;
     /*font-style: italic;*/
     font-weight: bold;
+    
 }
 body{
     margin-top:10px;
@@ -105,6 +106,8 @@ ul li:hover ul.drop{
     display:flex;
     position:relative;
     animation: mymove 50s infinite;
+   
+    
 }
 #slider .imgc{
     width: 100%;
@@ -114,7 +117,7 @@ ul li:hover ul.drop{
 @keyframes mymove{
   from{right: 0px;}
   to{right:1000px;}
-
+ 
 }
 #buttr{
     position:absolute;
@@ -152,6 +155,7 @@ box-shadow: 0px 3px 5px 1px rgb(185, 185, 185);
     margin-top:10px;
     margin-bottom:10px;
     background-color:rgb(214, 214, 214);
+    width:100%;
 }
 img.pic{
     margin-top:10px;
@@ -205,6 +209,7 @@ li:hover #gear{
     text-align:center;
 background-color:rgb(200, 200, 200);
 margin-top:-20px;
+width:100%;
 }
 .brd:hover {
     transition-delay:0.2s;
@@ -218,6 +223,7 @@ footer{
     margin-bottom:10px;
     font-family:'Times New Roman', Times, serif;
     color:rgb(255, 255, 255);
+    width:100%;
 
 }
 footer img{
