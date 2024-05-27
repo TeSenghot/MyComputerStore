@@ -20,11 +20,13 @@ ul{
     list-style:none;
     text-align:right;
     margin-right:10px;
+    
 }
 ul li{
   display:inline-block;
  position:relative;
  background-color:white;
+ 
 
 }
 ul li a.menu{
