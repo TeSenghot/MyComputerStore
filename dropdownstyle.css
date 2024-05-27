@@ -104,7 +104,6 @@ ul li:hover ul.drop{
     margin-top:10px;
     display:flex;
     position:relative;
-    width:100%;
     animation: mymove 50s infinite;
 }
 #slider .imgc{
