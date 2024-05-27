@@ -9,7 +9,7 @@
 body{
     margin-top:10px;
     overflow-x:hidden;
-    width:100%;
+   
 }
 #logo{
     text-align:left;
@@ -22,6 +22,7 @@ ul{
     list-style:none;
     text-align:right;
     margin-right:10px;
+    width:100%;
     
 }
 ul li{
@@ -92,15 +93,6 @@ ul li a.dropl:hover{
 }
 ul li:hover ul.drop{
     visibility: visible;
-}
-.search{
-    margin-left:550px;
-    position:absolute;
-    margin-top:10px;
-}
-.search input {
-    width:200px;
-    height: 30px;
 }
 #slider{
     margin-top:10px;
@@ -210,7 +202,7 @@ li:hover #gear{
     text-align:center;
 background-color:rgb(200, 200, 200);
 margin-top:-20px;
-width:auto;
+width:100%;
 }
 .brd:hover {
     transition-delay:0.2s;
