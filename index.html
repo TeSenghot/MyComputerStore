@@ -7,24 +7,24 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <title>Laptop and Computer</title>
 </head>
-<body>
+<body id="body">
 
 <!--This the menu list-->
 <ul>
     <li><a href="index.html" class="menu"><i class="fa-solid fa-house"></i></a></li>
-    <li><a href="aboutus.html" class="menu" target="_blank">About US</a></li>
-<li><a href="contact.html" class="menu" target="_blank">Contact</a></li>
+    <li><a href="aboutus.html" class="menu" taget="_blank">About US</a></li>
+<li><a href="contact.html" class="menu">Contact</a></li>
 <li>
     <li><a href="#" id="dropbar"><i class="fa-solid fa-laptop"></i></a>
 <ul class="drop">
-    <li><a href="desktop.html" class="dropl" target="_blank">Desktop Model</a></li>
-    <li><a href="laptop.html" class="dropl" target="_blank">Laptop Model</a></li>
-    <li><a href="mouse.html" class="dropl" target="_blank">Mouse Model</a></li> 
-    <li><a href="keyboard.html" class="dropl" target="_blank">Keyboard Model</a></li>           
+    <li><a href="desktop.html" class="dropl">Desktop Model</a></li>
+    <li><a href="laptop.html" class="dropl">Laptop Model</a></li>
+    <li><a href="mouse.html" class="dropl">Mouse Model</a></li> 
+    <li><a href="keyboard.html" class="dropl">Keyboard Model</a></li>           
 </ul>
 </li>
 </li>
-<li><a href="setting.html" class="menu" target="_blank">Setting &nbsp;<i class="fa-solid fa-gear" id="gear"></i></a></li>
+<li><a href="setting.html" class="menu">Setting &nbsp;<i class="fa-solid fa-gear" id="gear"></i></a></li>
 </ul>
 <div id=slider>
 <img class="imgc" src="media/back1.jpg" >
@@ -33,11 +33,20 @@
 </div>
 
 
-<marquee direction="right" id="tank"><span style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size:25px;">Welcome to Computer Store&nbsp;&nbsp;&nbsp;</span><img src="media/tank.gif" width="140px" height="50px" scrollamount="5"></marquee>
+<marquee direction="right" id="tank"><span style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size:30px; color:greenyellow; ">Welcome to Computer Store&nbsp;&nbsp;&nbsp;</span><img src="media/tank.gif" width="140px" height="50px" scrollamount="5"></marquee>
 <div class="intro">
-<button id="button2">Product <span style="color:greenyellow">Class!!</h1>
-
-</div>
+    <button id="button1" onclick="myfunction()"<h1>Light <span style="color:rgb(230, 245, 59)">Mode!!</h1></button>
+        <script>
+        function myfunction(){
+            document.getElementById("body").style.backgroundColor="white";
+        }
+        </script>
+<button id="button2" onclick="myfunction1()"<h1>Night <span style="color:greenyellow">Mode!!</h1></button>
+<script>
+function myfunction1(){
+    document.getElementById("body").style.backgroundColor="black";
+}
+</script>
 
 <div id="modelname" align="center">
     <img src="media/p1.png" class="pic">
