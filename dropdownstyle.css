@@ -136,7 +136,7 @@ ul li:hover ul.drop{
 }
 #button1{
     position:absolute;
-    margin-top:-90px;
+    margin-top:-140px;
     margin-left:1200px;
     font-size:25px;
     border:none;
@@ -147,7 +147,7 @@ ul li:hover ul.drop{
     }
 #button2{
     position:absolute;
-    margin-top:-30px;
+    margin-top:-80px;
     margin-left:1200px;
     font-size:25px;
     border:none;
