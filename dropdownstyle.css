@@ -9,6 +9,7 @@
 #body{
     margin-top:10px;
     overflow-x:hidden;
+    overflow-y:visible;
     background-color: white;
 }
 #logo{
