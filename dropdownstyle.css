@@ -138,7 +138,7 @@ ul li:hover ul.drop{
 #button1{
     position:absolute;
     margin-top:-90px;
-    margin-left:1350px;
+    margin-left:1300px;
     font-size:25px;
     border:none;
     border-radius:7px;
@@ -149,7 +149,7 @@ ul li:hover ul.drop{
 #button2{
     position:absolute;
     margin-top:-30px;
-    margin-left:1350px;
+    margin-left:1300px;
     font-size:25px;
     border:none;
     border-radius:7px;
@@ -158,10 +158,10 @@ padding:4px;
 box-shadow: 0px 3px 5px 1px rgb(185, 185, 185);
 }
 #modelname{
-    margin-top:10px;
 border-top:4px solid rgb(37, 254, 34);
-    width:1550px;
+width:1530px;
     float:center;
+    margin-top:-5px;
 
 }
 img.pic{
@@ -215,9 +215,8 @@ li:hover #gear{
 }
 .brands{
     text-align:center;
-background-color:rgb(200, 200, 200);
 margin-top:-20px;
-width:1550px;
+width:1530px;
 
 }
 .brd:hover {
@@ -232,7 +231,7 @@ footer{
     margin-bottom:10px;
     font-family:'Times New Roman', Times, serif;
     color:rgb(255, 255, 255);
-    width:1550px;
+    width:1530px;
 
 }
 footer img{
