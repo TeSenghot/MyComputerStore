@@ -10,7 +10,6 @@
     margin-top:10px;
     overflow-x:hidden;
     background-color: white;
-   
 }
 #logo{
     text-align:left;
@@ -107,6 +106,7 @@ ul li:hover ul.drop{
 #slider .imgc{
     height:450px;
     z-index:-1;
+    border-bottom: 4px solid rgb(37, 254, 34);
     
 }
 @keyframes mymove{
@@ -137,29 +137,31 @@ ul li:hover ul.drop{
 }
 #button1{
     position:absolute;
-    margin-top:-80px;
+    margin-top:-90px;
+    margin-left:1350px;
     font-size:25px;
     border:none;
-    border-radius:0px 7px 7px 0px;
+    border-radius:7px;
     color:rgb(37, 239, 175);
     padding:4px;
     box-shadow: 0px 3px 5px 1px rgb(185, 185, 185);
     }
 #button2{
-position:absolute;
-margin-top:-20px;
-font-size:25px;
-border:none;
-border-radius:0px 7px 7px 0px;
+    position:absolute;
+    margin-top:-30px;
+    margin-left:1350px;
+    font-size:25px;
+    border:none;
+    border-radius:7px;
 color:rgb(37, 239, 175);
 padding:4px;
 box-shadow: 0px 3px 5px 1px rgb(185, 185, 185);
 }
 #modelname{
     margin-top:10px;
-    
-    background-color:rgb(214, 214, 214);
-    width:auto;
+border-top:4px solid rgb(37, 254, 34);
+    width:1550px;
+    float:center;
 
 }
 img.pic{
@@ -215,7 +217,7 @@ li:hover #gear{
     text-align:center;
 background-color:rgb(200, 200, 200);
 margin-top:-20px;
-width:100%;
+width:1550px;
 
 }
 .brd:hover {
@@ -230,7 +232,7 @@ footer{
     margin-bottom:10px;
     font-family:'Times New Roman', Times, serif;
     color:rgb(255, 255, 255);
-    width:100%;
+    width:1550px;
 
 }
 footer img{
