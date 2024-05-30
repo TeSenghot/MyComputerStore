@@ -96,6 +96,13 @@ ul li a.dropl:hover{
 ul li:hover ul.drop{
     visibility: visible;
 }
+#floater{
+    z-index:1;
+    position:absolute;
+    height:350px;
+    margin-left: 800px;
+    margin-top:1450px;
+}
 #slider{
     margin-top:10px;
     display:flex;
@@ -216,16 +223,19 @@ width:1530px;
     border-color:rgb(21, 242, 201);
     border-radius:30px;
 }
-footer img{
-    margin-top:10px;
-    position:absolute;
-    z-index:-1;
-    width:1550px;
-    height:auto;
+#tf{
+width:100%; 
+color:rgb(141, 141, 141);
+line-height:40px;
+margin-left:25px;
 }
-footer .f{
-    font-size:15px;
-    margin-top:10px;
-    margin-left:70px;
-    color:white;
+#f2{
+    margin-top:-60px;
+}
+footer{
+    background-color:antiquewhite;
+}
+#footerlink a{
+    text-decoration:none;
+    color:rgb(0, 0, 0);
 }
