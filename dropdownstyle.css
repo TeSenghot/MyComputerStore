@@ -224,7 +224,7 @@ width:1530px;
     border-radius:30px;
 }
 #tf{
-width:100%; 
+width:1530px; 
 color:rgb(141, 141, 141);
 line-height:40px;
 margin-left:25px;
@@ -239,4 +239,4 @@ footer{
     text-decoration:none;
     color:rgb(0, 0, 0);
 }
-#tf{width:1530px;}
+
