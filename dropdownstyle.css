@@ -102,6 +102,20 @@ ul li:hover ul.drop{
     height:350px;
     margin-left: 800px;
     margin-top:1450px;
+    animation: mymove2 25s infinite;
+}
+@keyframes mymove2{
+    0% {top: 0px;}
+    10% {top: 5px;}
+    20% {top: -5px; }
+    30% {top: 5px;}
+    40% {top: -5px;}
+    50%{top: 5px;}
+    60% {top: -5px;}
+    70%{top: 5px;}
+    80%{top: -5px;}
+    90%{top: 5px;}
+    100%{top: -5px;}
 }
 #slider{
     margin-top:10px;
@@ -112,7 +126,21 @@ ul li:hover ul.drop{
 @keyframes mymove{
   from{right: 0px;}
   to{right:900px;}
- 
+}
+#label{
+    position:absolute;
+    margin-top: 10px;
+    font-family:Brush Script MT;
+    color:rgb(225, 35, 199);
+    font-style: italic;
+    background-color:rgb(134, 216, 52);
+    box-shadow:0px 1px 10px 0px lightgreen;
+    font-weight:bold;
+    font-size:30px;
+    letter-spacing:3px;
+    padding:1px 10px;
+    border-style:none;
+    border-radius:0px 9px 9px 0px;
 }
 #buttr{
     position:absolute;
