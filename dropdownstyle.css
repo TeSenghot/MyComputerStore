@@ -11,6 +11,7 @@
     overflow-x:hidden;
     overflow-y:visible;
     background-color: white;
+   
 }
 #logo{
     text-align:left;
@@ -91,7 +92,8 @@ ul li a.dropl:hover{
    border-radius:2px;
   
    box-shadow: 0px 5px 5px 0px rgb(228, 219, 120);
-   font-size:20px;
+   font-size:25px;
+   padding:1px 1px;
 }
 ul li:hover ul.drop{
     visibility: visible;
