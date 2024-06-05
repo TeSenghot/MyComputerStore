@@ -264,6 +264,7 @@ footer{
     background-color:antiquewhite;
     width:1530px;
     height: 400px;
+    position:absolute;
 }
 #footerlink a{
     text-decoration:none;
