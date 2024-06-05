@@ -106,6 +106,14 @@ ul li:hover ul.drop{
     margin-top:1450px;
     animation: mymove2 25s infinite;
 }
+#floater2{
+    z-index:1;
+    position:absolute;
+    margin-top:1400px;
+    margin-left: 100px;
+    height:50%;
+
+}
 @keyframes mymove2{
     0% {top: 0px;}
     10% {top: 5px;}
