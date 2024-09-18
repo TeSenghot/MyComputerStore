@@ -113,6 +113,14 @@ ul li:hover ul.drop{
     height:50%;
 
 }
+
+@media screen and (max-width: 800px){
+    ul li a.menu{
+        display:none;
+    }
+}
+
+
 @keyframes mymove2{
     0% {top: 0px;}
     10% {top: 5px;}
