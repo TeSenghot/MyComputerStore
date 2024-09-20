@@ -116,13 +116,13 @@ ul li:hover ul.drop{
 
 /*--------------------------------------------------------*/
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 1080px){
     ul li a.menu{
         display:none;
     }
 
     ul li a#dropbar{
-        padding:50px 200px;
+        padding:50px 170px;
         font-size: 20px;
     }
     #pc{
@@ -150,7 +150,7 @@ ul li:hover ul.drop{
             }
 
         li a.login{
-           padding:50px 50px;
+           padding:45px 50px;
            font-size: 40px;
         }
 }
