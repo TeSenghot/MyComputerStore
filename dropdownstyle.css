@@ -116,7 +116,7 @@ ul li:hover ul.drop{
 
 /*--------------------------------------------------------*/
 
-@media screen and (max-width: 1080px){
+@media screen and (max-width: 700px){
     ul li a.menu{
         display:none;
     }
