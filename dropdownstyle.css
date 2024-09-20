@@ -113,7 +113,21 @@ ul li:hover ul.drop{
     margin-left:-150px;
 
 }
+#button1{
+align-items: left;
+padding:0px;
 
+}
+#button2{
+    align-items: left;
+}
+#button1 span{
+    font-size: 15px;
+    padding:1px;
+}
+#button2 span{
+    font-size: 15px;
+}
 /*--------------------------------------------------------*/
 
 @media screen and (max-width: 1000px){
@@ -122,14 +136,19 @@ ul li:hover ul.drop{
     }
 
     ul li a#dropbar{
-        padding:25px 70px;
-        font-size: 20px;
+        padding:10px 50px;
+        font-size: 15px;
+    
     }
+    ul li a.dropl{
+        padding:1px 2px;
+    }
+
     #pc{
-        font-size: 20px;
+        font-size: 15px;
     }
     li #gear{
-        font-size:20px;
+        font-size:15px;
     }
     #slider{
         padding-top:10px;
@@ -140,23 +159,25 @@ ul li:hover ul.drop{
 
     div #modelname{
       
-            margin-top:-5px;
-        
-           max-width:20%;
+    margin-top:-5px;
+    max-width:20%;
     float:center;
-        
-        }
-        .brands{
-          
-            margin-top:-20px;
-            max-width:100%;
-            
-            }
+}
+#modelname .pic{
+    width:400%;
+    height: 100%;
+    float:center;
+}
+  
+    .brands{    
+    margin-top:-20px;
+    max-width:100%;       
+    }
+    li a.login{
+    padding:10px 10px;
+    font-size: 15px;
 
-        li a.login{
-           padding:25px 70px;
-           font-size: 20px;
-        }
+}
 }
 
 /*--------------------------------------------------------*/
@@ -257,6 +278,7 @@ width:100%;
     transition: transform .2s;
     border-radius:5px;
     border:1px solid white;
+ 
 }
 .pic:hover{
   transform: scale(1.5);  
