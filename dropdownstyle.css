@@ -114,13 +114,48 @@ ul li:hover ul.drop{
 
 }
 
+/*--------------------------------------------------------*/
+
 @media screen and (max-width: 1080px){
     ul li a.menu{
         display:none;
     }
+
+    ul li a#dropbar{
+        padding:50px 200px;
+        font-size: 20px;
+    }
+    #pc{
+        font-size: 40px;
+    }
+    li #gear{
+        font-size:40px;
+    }
+    #slider{
+        padding-top:50px;
+        
+    }
+
+    div #modelname{
+      
+            margin-top:-5px;
+           max-width:100%;
+        
+        }
+        .brands{
+            float:center;
+            margin-top:-20px;
+            max-width:100%;
+            
+            }
+
+        li a.login{
+           padding:50px 50px;
+           font-size: 40px;
+        }
 }
 
-
+/*--------------------------------------------------------*/
 
 
 @keyframes mymove2{
@@ -271,7 +306,7 @@ li:hover #gear{
  
 }
 .brands{
- text-align:center;
+text-align:center;
 margin-top:-20px;
 width:1530px;
 
