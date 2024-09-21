@@ -1,5 +1,6 @@
 *{
-    padding:5px;
+    padding-top:2px;
+    padding-bottom:5px;
     margin:0px;
     font-family: Bauhaus 93;
     /*font-style: italic;*/
@@ -212,7 +213,7 @@ button #label{
     }
 
     #tf #f1{
-        font-size:10px;
+        font-size:7px;
         margin-left:-80px;
     }
 
