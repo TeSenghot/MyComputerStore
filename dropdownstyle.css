@@ -7,7 +7,7 @@
     
 }
 #body{
-    margin-top:10px;
+    margin-top:8px;
     overflow-x:hidden;
     overflow-y:visible;
     background-color: white;
@@ -123,12 +123,11 @@ padding:0px;
 }
 #button1 span{
     font-size: 15px;
-    padding:1px;
 }
 #button2 span{
     font-size: 15px;
 }
-/*--------------------------------------------------------*/
+/*----------------------Mobile---------------------------*/
 
 @media screen and (max-width: 1000px){
     ul li a.menu{
@@ -150,10 +149,8 @@ margin-left:-140px;
     li #gear{
         font-size:15px;
     }
-    #slider{
-        padding-top:10px;
-        max-width:20%;
-        max-height:20%;
+    #slider img{
+        height:200px;
         float:center;
     }
 
@@ -178,6 +175,46 @@ margin-left:-140px;
     font-size: 15px;
 
 }
+
+.intro #button1{
+    position:absolute;
+    margin-top: -200px;
+    margin-left:-10px;
+    font-size:1px;
+    z-index:1;
+    padding: 1px 10px;
+  
+}
+
+.intro #button2{
+    position:absolute;
+    margin-top: -150px;
+    margin-left:-10px;
+    font-size:1px;
+    z-index:1;
+    padding: 1px 1px;
+}
+
+
+#button2 i{
+    font-size: 10px;
+}
+#button1 i{
+    font-size: 10px;
+}
+
+button #label{
+ scale: 0.5;
+}
+#tf #f2{
+        display: none;
+    }
+
+    #tf #f1{
+        font-size:10px;
+        margin-left:-80px;
+    }
+
 }
 
 /*--------------------------------------------------------*/
@@ -250,7 +287,7 @@ margin-left:-140px;
     font-size:25px;
     border-radius:7px;
     color:rgb(37, 239, 175);
-    padding:4px 20px;
+    padding:10px 10px 0px 5px;
     box-shadow: 0px 3px 5px 1px rgb(185, 185, 185);
     }
 #button2{
@@ -261,7 +298,7 @@ margin-left:-140px;
     font-size:25px;
     border-radius:7px;
 color:rgb(37, 239, 175);
-padding:4px 20px;
+padding:10px 10px 0px 15px;
 box-shadow: 0px 3px 5px 1px rgb(185, 185, 185);
 }
 #modelname{
@@ -291,13 +328,7 @@ width:100%;
     background-color:brown;
     border-radius: 10px;
 }
-.clkbutton{
-    background-color: rgb(22, 143, 199);
-    padding:5px 25px;
-    border-radius:10px;
-    padding-left:15px;
-margin-left: 70px;
-}
+
 .login{
     border: 1px, lightgray;
     border-style:solid;
